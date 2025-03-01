@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@astrojs/check':
         specifier: ^0.9.4
-        version: 0.9.4(typescript@5.7.3)
+        version: 0.9.4(typescript@5.8.2)
       astro:
-        specifier: ^5.4.0
-        version: 5.4.0(rollup@4.34.8)(typescript@5.7.3)(yaml@2.6.0)
+        specifier: ^5.4.1
+        version: 5.4.1(rollup@4.34.8)(typescript@5.8.2)(yaml@2.6.0)
       typescript:
-        specifier: ^5.7.3
-        version: 5.7.3
+        specifier: ^5.8.2
+        version: 5.8.2
 
 packages:
 
@@ -28,6 +28,9 @@ packages:
 
   '@astrojs/compiler@2.10.3':
     resolution: {integrity: sha512-bL/O7YBxsFt55YHU021oL+xz+B/9HvGNId3F9xURN16aeqDK9juHGktdkCSXz+U4nqFACq6ZFvWomOzhV+zfPw==}
+
+  '@astrojs/compiler@2.10.4':
+    resolution: {integrity: sha512-86B3QGagP99MvSNwuJGiYSBHnh8nLvm2Q1IFI15wIUJJsPeQTO3eb2uwBmrqRsXykeR/mBzH8XCgz5AAt1BJrQ==}
 
   '@astrojs/internal-helpers@0.6.0':
     resolution: {integrity: sha512-XgHIJDQaGlFnTr0sDp1PiJrtqsWzbHP2qkTU+JpQ8SnBewKP2IKOe/wqCkl0CyfyRXRu3TSWu4t/cpYMVfuBNA==}
@@ -594,8 +597,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro@5.4.0:
-    resolution: {integrity: sha512-7A//zrCtJUGfJcQAt6PDhMu4a6pogvnK54HLXnYlPnKSWQZu/tKIYWfyvocVnTuEYIPExIN3CpjNAFFLoweJVw==}
+  astro@5.4.1:
+    resolution: {integrity: sha512-z9BiBz8pV7pZVn1evZv/9bJil3A9UZNyEjDFH3IjD87ioz95HHGLgbjRbbqF1EwSy8JOLKlMNyuQPqjrX8xqWw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1449,8 +1452,8 @@ packages:
   typescript-auto-import-cache@0.3.3:
     resolution: {integrity: sha512-ojEC7+Ci1ij9eE6hp8Jl9VUNnsEKzztktP5gtYNRMrTmfXVwA1PITYYAkpxCvvupdSYa/Re51B6KMcv1CTZEUA==}
 
-  typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  typescript@5.8.2:
+    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1803,12 +1806,12 @@ packages:
 
 snapshots:
 
-  '@astrojs/check@0.9.4(typescript@5.7.3)':
+  '@astrojs/check@0.9.4(typescript@5.8.2)':
     dependencies:
-      '@astrojs/language-server': 2.15.3(typescript@5.7.3)
+      '@astrojs/language-server': 2.15.3(typescript@5.8.2)
       chokidar: 4.0.1
       kleur: 4.1.5
-      typescript: 5.7.3
+      typescript: 5.8.2
       yargs: 17.7.2
     transitivePeerDependencies:
       - prettier
@@ -1816,14 +1819,16 @@ snapshots:
 
   '@astrojs/compiler@2.10.3': {}
 
+  '@astrojs/compiler@2.10.4': {}
+
   '@astrojs/internal-helpers@0.6.0': {}
 
-  '@astrojs/language-server@2.15.3(typescript@5.7.3)':
+  '@astrojs/language-server@2.15.3(typescript@5.8.2)':
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/yaml2ts': 0.2.1
       '@jridgewell/sourcemap-codec': 1.5.0
-      '@volar/kit': 2.4.6(typescript@5.7.3)
+      '@volar/kit': 2.4.6(typescript@5.8.2)
       '@volar/language-core': 2.4.6
       '@volar/language-server': 2.4.6
       '@volar/language-service': 2.4.6
@@ -2220,12 +2225,12 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@volar/kit@2.4.6(typescript@5.7.3)':
+  '@volar/kit@2.4.6(typescript@5.8.2)':
     dependencies:
       '@volar/language-service': 2.4.6
       '@volar/typescript': 2.4.6
       typesafe-path: 0.2.2
-      typescript: 5.7.3
+      typescript: 5.8.2
       vscode-languageserver-textdocument: 1.0.12
       vscode-uri: 3.0.8
 
@@ -2308,9 +2313,9 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@5.4.0(rollup@4.34.8)(typescript@5.7.3)(yaml@2.6.0):
+  astro@5.4.1(rollup@4.34.8)(typescript@5.8.2)(yaml@2.6.0):
     dependencies:
-      '@astrojs/compiler': 2.10.3
+      '@astrojs/compiler': 2.10.4
       '@astrojs/internal-helpers': 0.6.0
       '@astrojs/markdown-remark': 6.2.0
       '@astrojs/telemetry': 3.2.0
@@ -2355,7 +2360,7 @@ snapshots:
       shiki: 1.29.2
       tinyexec: 0.3.2
       tinyglobby: 0.2.12
-      tsconfck: 3.1.4(typescript@5.7.3)
+      tsconfck: 3.1.4(typescript@5.8.2)
       ultrahtml: 1.5.3
       unist-util-visit: 5.0.0
       unstorage: 1.14.4
@@ -2368,7 +2373,7 @@ snapshots:
       yocto-spinner: 0.2.0
       zod: 3.24.1
       zod-to-json-schema: 3.24.1(zod@3.24.1)
-      zod-to-ts: 1.2.0(typescript@5.7.3)(zod@3.24.1)
+      zod-to-ts: 1.2.0(typescript@5.8.2)(zod@3.24.1)
     optionalDependencies:
       sharp: 0.33.5
     transitivePeerDependencies:
@@ -3511,9 +3516,9 @@ snapshots:
 
   trough@2.2.0: {}
 
-  tsconfck@3.1.4(typescript@5.7.3):
+  tsconfck@3.1.4(typescript@5.8.2):
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.2
 
   tslib@2.8.0:
     optional: true
@@ -3526,7 +3531,7 @@ snapshots:
     dependencies:
       semver: 7.6.3
 
-  typescript@5.7.3: {}
+  typescript@5.8.2: {}
 
   ufo@1.5.4: {}
 
@@ -3815,9 +3820,9 @@ snapshots:
     dependencies:
       zod: 3.24.1
 
-  zod-to-ts@1.2.0(typescript@5.7.3)(zod@3.24.1):
+  zod-to-ts@1.2.0(typescript@5.8.2)(zod@3.24.1):
     dependencies:
-      typescript: 5.7.3
+      typescript: 5.8.2
       zod: 3.24.1
 
   zod@3.24.1: {}
